@@ -1,0 +1,22 @@
+:root{
+  --primary: rgb(51, 198, 201);
+  --secondary: rgb(144, 148, 187);
+}
+
+.header-menu-button:hover{
+  color: var(--secondary);
+}
+
+.header-menu-button{
+  color: var(--primary);
+}
+
+.button:hover, .link-item:hover{
+  background-color: var(--secondary);
+}
+
+.button{
+  background-color: var(--primary);
+  padding: 1rem;
+  border-radius: 1rem;
+}
